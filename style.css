@@ -1,0 +1,128 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin : 0 auto;
+  font-size: 16px;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+h4 {
+  color: white
+}
+
+h5 {
+  color: white
+}
+
+
+p {
+  color : hsl(218, 22%, 67%)
+}
+
+.join {
+  color: hsl(179, 62%, 43%);
+}
+
+.yellow {
+  color:hsl(71, 73%, 54%);
+  font-size: 16px;
+  margin: 26px 0px;
+  font-weight: bolder;
+}
+.paragraph {
+  color: #D3D3D3	;
+}
+
+/* Section two */
+
+.month {
+  font-size: 16px;
+  margin : 30px 0;
+}
+
+.dollar {
+  font-size: 29px;
+  margin: 20px 0px;
+}
+
+#full {
+  color: white;
+}
+
+.btn {
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  font-size: 16px;
+  width: 80%;
+  padding:0.75rem;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-bottom: 12px;;
+}
+
+/* Section three */
+.why {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+  line-height: 25px;
+  color: white;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 85vh;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 100px;
+  
+}
+
+.sectionone {
+    background-color: white;  
+    grid-column: 1/2;  
+    padding: 2rem;
+    text-align: left;
+    box-shadow: hsl(179, 62%, 43%);
+  
+}
+.sectiontwo {
+  background: hsl(179, 62%, 43%);
+  grid-column: 1/2;
+  align-items: center;
+  padding : 2rem;
+}
+
+.sectionthree {
+  background :  hsl(179, 66%, 65%);
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+    
+  }
+  .sectionthree {
+    grid-row: 3/5;
+  }
+}
